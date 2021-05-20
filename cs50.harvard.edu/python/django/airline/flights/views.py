@@ -14,3 +14,10 @@ def flight(request, flight_id):
         "flight" : flight,
         "passengers": flight.passengers.all()
     })
+
+def book(request, flight_id):
+    flight = Flight.objects.get(pk=flight_id)
+
+
+
+book()
