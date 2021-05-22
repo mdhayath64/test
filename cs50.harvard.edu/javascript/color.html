@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Colors</title>
+        <script>
+            document.addEventListener('DOMContentLoaded',()=>{
+                document.querySelector('select').onchange = function(){
+                    document.querySelector('#hello').style.color = this.value;
+                }
+
+/*
+                document.querySelectorAll('button').forEach(function(button){
+                    button.onclick = function(){
+                        document.querySelector('#hello').style.color = button.dataset.color;
+                    }
+                });
+                */
+/*
+                // Chnage font color to red
+                document.querySelector('#red').onclick = function(){
+                    document.querySelector('#hello').style.color = 'red';
+                }
+
+                // Chnage font color to blue
+                document.querySelector('#blue').onclick = function(){
+                    document.querySelector('#hello').style.color = 'blue';
+                }
+
+                // Chnage font color to green
+                document.querySelector('#green').onclick = function(){
+                    document.querySelector('#hello').style.color = 'green';
+                }
+
+                // Chnage font color to black
+                document.querySelector('#black').onclick = function(){
+                    document.querySelector('#hello').style.color = 'black';
+                }
+*/
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id="hello">Hello!</h1>
+        <select>
+            <option value="black">Black</option>
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            
+        </select>
+        <!--
+        <button data-color="red">Red</button>
+        <button data-color="blue">Blue</button>
+        <button data-color="green">green</button>
+        <button data-color="black">black</button>-->
+    </body>
+</html>
