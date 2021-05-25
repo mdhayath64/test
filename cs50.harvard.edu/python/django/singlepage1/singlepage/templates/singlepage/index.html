@@ -1,0 +1,40 @@
+{% extends "singlepage/layout.html" %}
+
+{% block head %}
+<style>
+
+</style> 
+<script>
+
+    function showSection(section){
+        fetch(`sections/${section}`)
+        .then(response => response.text())
+        .then(text => {
+            document.querySelector('#content').innerHTML = text;
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+        console.log("ti");
+        document.querySelectorAll('button').forEach(button =>{
+            button.onclick = function() {
+                showSection(this.dataset.section);
+
+            }
+
+        })
+    })
+
+</script>
+{% endblock %}
+
+{% block body %}
+    <h1> Hello!</h1>
+    <button data-section="1">Section 1</button>
+    <button data-section="2">Section 2</button>
+    <button data-section="3">Section 3</button>
+    <div id="content">
+        
+    </div>
+
+{% endblock %}
