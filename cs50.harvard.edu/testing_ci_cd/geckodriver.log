@@ -1,0 +1,19 @@
+1622815075495	geckodriver	INFO	Listening on 127.0.0.1:33999
+1622815076428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKc9Ryb"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x1916
+[GFX1-]: PCI candidate 0x1002/0x6660
+1622815079129	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKc9Ryb/search.json.mozlz4", (void 0)))
+1622815084042	Marionette	INFO	Listening on port 37667
+1622815084187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622815084636	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1622815085010	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1622815085203	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1622815085370	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622815588401	Marionette	INFO	Stopped listening on port 37667
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
