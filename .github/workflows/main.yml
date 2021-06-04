@@ -39,6 +39,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run Django unit test
         run: |
+          cd cs50.harvard.edu/python/django/airline0/
           pip3 install --user django
           python3 manage.py test  
 
