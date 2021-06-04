@@ -10,4 +10,5 @@ jobs:
   - name: Run Django unit test
     run:
       pip3 install --user django
+      cd cs50.harvard.edu/python/django/airline0/
       python3 manage.py test
