@@ -30,10 +30,14 @@ npm init -y
 Ex:-
 django-admin startproject frontend
 cd frontend
+
 npm init -y
 npm i webpack webpack-cli --save-dev
 npm i @babel/core babel-loader @babel/preset-react --save-dev
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 npm i react react-dom --save-dev
 npm install @material-ui/core --force
 npm install @babel/plugin-proposal-class-properties --force
-npm install react-router-dom
+npm install react-router-dom --force
+nmp install @material-ui/icons --force
+
