@@ -1,0 +1,39 @@
+**********vs code extension for react+Django*********
+Prettier - Code formatter
+python
+django
+ES7+ React/Redux/React-Native snippets
+JavaScript (ES6) code snippets
+
+*********creating envernament
+>> python -m venv venv
+>> venv\Scripts\activate
+
+installation (one time)
+>> pip install django djangorestframework
+
+create project 
+>> django-admin startproject <project_name>
+
+python.exe .\manage.py makemigrations
+
+python.exe .\manage.py migrate 
+
+************run server
+python.exe .\manage.py runserver
+
+*************create frontend project using dijango 
+django-admin startproject <project_name>
+cd <project_name>
+npm init -y
+
+Ex:-
+django-admin startproject frontend
+cd frontend
+npm init -y
+npm i webpack webpack-cli --save-dev
+npm i @babel/core babel-loader @babel/preset-react --save-dev
+npm i react react-dom --save-dev
+npm install @material-ui/core --force
+npm install @babel/plugin-proposal-class-properties --force
+npm install react-router-dom

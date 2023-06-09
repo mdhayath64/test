@@ -40,6 +40,13 @@ export class AppComponent implements OnInit {
   parentMessage = "I am a msg in the parent component";
   childMessage = "I will be passed from PC to CC";
 
+  //@output
+  count: any; 
+  displayFoo(count) {
+    console.log(count);
+  }
+
+
 
   // ---------------------------------------------------------------------
   ngOnInit(): void {

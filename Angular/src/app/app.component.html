@@ -348,10 +348,11 @@
     <h5>Result: {{sumResult}}</h5>
   </div>
 
+
   <!--Component Communication.-->
   <div class="content">
     <p>{{parentMessage}}</p>
-    <app-first [helloMessage] = "childMessage"></app-first>
+    <app-first (foo)[helloMessage] = "childMessage"></app-first>
   </div>
 
 
