@@ -41,3 +41,6 @@ npm install @babel/plugin-proposal-class-properties --force
 npm install react-router-dom --force
 nmp install @material-ui/icons --force
 
+
+************TO start the react engine
+npm run dev
