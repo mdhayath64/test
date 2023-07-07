@@ -9,6 +9,11 @@ JavaScript (ES6) code snippets
 >> python -m venv venv
 >> venv\Scripts\activate
 
+#########On Ubuntu
+>> pip install virtualenv
+>> virtualenv UbuntuVenv1
+>> source UbuntuVenv1/bin/activate
+
 installation (one time)
 >> pip install django djangorestframework
 
