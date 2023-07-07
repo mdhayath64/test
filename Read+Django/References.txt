@@ -44,7 +44,7 @@ npm i react react-dom --save-dev
 npm install @material-ui/core --force
 npm install @babel/plugin-proposal-class-properties --force
 npm install react-router-dom --force
-nmp install @material-ui/icons --force
+npm install @material-ui/icons --force
 
 
 ************TO start the react engine
