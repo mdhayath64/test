@@ -45,6 +45,7 @@ npm install @material-ui/core --force
 npm install @babel/plugin-proposal-class-properties --force
 npm install react-router-dom --force
 npm install @material-ui/icons --force
+npm install @material-ui/lab
 
 
 ************TO start the react engine
