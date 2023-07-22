@@ -16,6 +16,7 @@ JavaScript (ES6) code snippets
 
 installation (one time)
 >> pip install django djangorestframework
+>> pip install requests
 
 create project 
 >> django-admin startproject <project_name>
