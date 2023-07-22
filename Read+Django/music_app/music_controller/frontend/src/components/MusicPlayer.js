@@ -1,6 +1,14 @@
 import React, { Component } from "react";
-import {Grid, Typography, Card, Iconbutton} from "@material-ui/core"
-import { PlayArrwIcon, SkipNextIcon, PauseIcon} from "@material-ui/icons"
+import {
+    Grid, 
+    Typography, 
+    Card, 
+    IconButton,
+    LinearProgress,
+} from "@material-ui/core";
+import PlayArrwIcon from "@material-ui/icons/PlayArrow"; 
+import SkipNextIcon from "@material-ui/icons/SkipNext";
+import PauseIcon from "@material-ui/icons/Pause";
 
 export default class MusicPlayer extends Component {
     constructor(props) {
@@ -8,24 +16,32 @@ export default class MusicPlayer extends Component {
     }
 
     render() {
+        const songProgress = (this.props.time / this.props.duration) * 100;
+
         return (
         <Card>
-            <Grid container alignItems="certer">
+            <Grid container alignItems="center" xs={8 }>
                 <Grid item align="center" xs={4}>
                     <img src={this.props.image_url} height="100%" width="100%" />
                 </Grid>
                 <Grid item align="center" xs={8}>
-                    <Typography color="textsecondary" variant="subtitle1">
+                    <Typography component="h5" variant="h5">
                         {this.props.title}
                     </Typography>
+                    <Typography color="textsecondary" variant="subtitle1">
+                        {this.props.artist}
+                    </Typography>
                     <div>
-                        <Iconbutton>
+                        <IconButton>
                             {this.props.is_playing ? <PauseIcon /> : <PlayArrwIcon />}
-                        </Iconbutton>
+                        </IconButton>
+                        <IconButton>
+                            <SkipNextIcon />
+                        </IconButton>
                     </div>
-                    
                 </Grid>
             </Grid>
+            <LinearProgress variant="determinate" value={ songProgress } />
         </Card>
         );
     }
