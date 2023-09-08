@@ -1,0 +1,11 @@
+JavaScript
+
+* Data Type+
+** Primitive
+**** srting -> 'hello', "hello"
+**** number -> 1,10,50,-89
+**** boolean -> true or false
+**** undefined ->
+**** null -> 
+
+
