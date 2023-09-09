@@ -15,8 +15,13 @@ dotnet sln list
 
 ************run server
 dotnet run       -> run the server
-dotnet watch     -> run the server and reload automically
+dotnet watch --no-hot-reload     -> run the server and reload automically
 ng server		 -> run angular
+
+**********Migrations
+dotnet ef migrations add <migration_command> -o <path>		-> for first time path is required
+dotnet ef migrations add <migration_command>
+dotnet ef database update
 
 
 ***********************************************************
@@ -35,11 +40,11 @@ Angular Language Servic
 Microsoft.EntityFrameworkCore.Design
 Microsoft.EntityFrameworkCore.Sqlite
 dotnet-ef		-> dotnet tool install --global dotnet-ef --version 7.0.10
+Microsoft.Identity.Clien
+Microsoft.AspNetCore.Authentication.JwtBearer 
 
 
-**********Migrations
-dotnet ef migrations add InitialCreat -o <path>
-dotnet ef database update
+
 
 **********Angualr Commands********************
 npm install -g @angular/cli@16
