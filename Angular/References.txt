@@ -16,6 +16,7 @@ dotnet sln list
 ************run server
 dotnet run       -> run the server
 dotnet watch     -> run the server and reload automically
+ng server		 -> run angular
 
 
 ***********************************************************
@@ -28,7 +29,7 @@ Material Icon Theme
 C# Extensions
 NuGet Gallery
 SQLite
-
+Angular Language Servic
 
 ***********NuGet Packages
 Microsoft.EntityFrameworkCore.Design
@@ -39,6 +40,10 @@ dotnet-ef		-> dotnet tool install --global dotnet-ef --version 7.0.10
 **********Migrations
 dotnet ef migrations add InitialCreat -o <path>
 dotnet ef database update
+
+**********Angualr Commands********************
+npm install -g @angular/cli@16
+ng new client					-> creat new angular application
 
 **********Other Commands********************
 dotnet new list				-> to get all the list of templates
