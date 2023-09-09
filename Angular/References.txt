@@ -44,11 +44,18 @@ dotnet ef database update
 **********Angualr Commands********************
 npm install -g @angular/cli@16
 ng new client					-> creat new angular application
+ng add ngx-bootstrap			-> angulat bootstrap
+npm install font-awesome		-> also add to angular.json file "./node_module/font-awesome/css/font-awesome.min.css",
 
 **********Other Commands********************
 dotnet new list				-> to get all the list of templates
 dotnet new gitignore
 dotnet new globaljson
 dotnet tool list -g
+
+**********installing the ssl certificate
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco install mkcert
+mkcert -install
 
 
