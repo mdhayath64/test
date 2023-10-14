@@ -65,6 +65,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install mkcert
 mkcert -install
 
+*********** Angular Packages
+npm install ngx-toastr@17
+
 
 
 
