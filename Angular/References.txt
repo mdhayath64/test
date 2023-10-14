@@ -51,6 +51,8 @@ npm install -g @angular/cli@16
 ng new client					-> creat new angular application
 ng add ngx-bootstrap			-> angulat bootstrap
 npm install font-awesome		-> also add to angular.json file "./node_module/font-awesome/css/font-awesome.min.css",
+ng g c nav --skip-tests			-> create component
+ng g s <services_path> --skip-tests			-> create services ng g s _services/accounts --skip-tests
 
 **********Other Commands********************
 dotnet new list				-> to get all the list of templates
@@ -63,4 +65,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install mkcert
 mkcert -install
 
+
+
+
+**********************Usefull Links*************************************
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://valor-software.com/ngx-bootstrap/#/components
 
