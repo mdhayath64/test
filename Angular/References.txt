@@ -42,6 +42,7 @@ Microsoft.EntityFrameworkCore.Sqlite
 dotnet-ef		-> dotnet tool install --global dotnet-ef --version 7.0.10
 Microsoft.Identity.Clien
 Microsoft.AspNetCore.Authentication.JwtBearer 
+AutoMapper.Extensions.Microsoft.DependencyInjection by Ji
 
 
 
@@ -53,6 +54,7 @@ ng add ngx-bootstrap			-> angulat bootstrap
 npm install font-awesome		-> also add to angular.json file "./node_module/font-awesome/css/font-awesome.min.css",
 ng g c nav --skip-tests			-> create component
 ng g s <services_path> --skip-tests			-> create services ng g s _services/accounts --skip-tests
+ng g interceptor <Intercepter_path> --skip-tests -> creat the intercepter ng g interceptor _interceptors/error --skip-tests
 
 **********Other Commands********************
 dotnet new list				-> to get all the list of templates
@@ -67,6 +69,12 @@ mkcert -install
 
 *********** Angular Packages
 npm install ngx-toastr@17
+
+
+
+
+************Other
+json generator for data seeding -> https://json-generator.com/
 
 
 
