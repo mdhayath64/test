@@ -55,6 +55,7 @@ npm install font-awesome		-> also add to angular.json file "./node_module/font-a
 ng g c nav --skip-tests			-> create component
 ng g s <services_path> --skip-tests			-> create services ng g s _services/accounts --skip-tests
 ng g interceptor <Intercepter_path> --skip-tests -> creat the intercepter ng g interceptor _interceptors/error --skip-tests
+ng g environments                -> environments for the Angular to share variables
 
 **********Other Commands********************
 dotnet new list				-> to get all the list of templates
@@ -68,7 +69,8 @@ choco install mkcert
 mkcert -install
 
 *********** Angular Packages
-npm install ngx-toastr@17
+npm install ngx-toastr@17		  -> alearts
+npm i ng-gallery @angular/cdk     -> for photos
 
 
 
