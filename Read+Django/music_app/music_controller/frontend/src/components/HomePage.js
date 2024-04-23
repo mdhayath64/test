@@ -40,7 +40,7 @@ export default class HomePage extends Component {
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
-          <ButtonGroup disableElevation variant="contained" colr="primary">
+          <ButtonGroup disableElevation variant="contained" color="primary">
             <Button color="primary" to="/join" component={Link}>
               Join a Room
             </Button>
