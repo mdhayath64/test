@@ -1,2 +1,20 @@
 cource link - https://www.udemy.com/course/learn-to-build-an-e-commerce-store-with-dotnet-react-redux/?couponCode=25BBPMXINACTIVE
 github link - https://github.com/TryCatchLearn/Restore-v2
+
+
+dotnt Commands
+dotnet --info    -> informations of the dotnet installed
+dotnet new list  -> get all the project templets
+dotnet new sln -> creates the sln file
+dotnet new webapi -n API -controllers -> create project with templete
+dotnet sln add .\API  -> addeds project to the solution
+dotnet dev-cert https --trust -> to trust the certificate
+dotnet dev-cert https --clean -> to clean the certificate
+dotnet new gitignore -> creates the git ignore file for dotnet
+
+
+.net extensions
+nuget gallery
+C# dev kit
+Sqlite viewer
+material icon theme

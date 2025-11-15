@@ -12,3 +12,7 @@ Angular/C#+Angular/DatingApp/API/datingapp.db-wal
  
 /React_dotnet/.vs
 /.vs
+React_dotnet/.vscode/settings.json
+React_dotnet/API/appsettings.json
+React_dotnet/API/store.db-shm
+React_dotnet/API/store.db-wal
