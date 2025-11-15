@@ -1,5 +1,8 @@
 cource link - https://www.udemy.com/course/learn-to-build-an-e-commerce-store-with-dotnet-react-redux/?couponCode=25BBPMXINACTIVE
 github link - https://github.com/TryCatchLearn/Restore-v2
+react - https://react.dev
+material UI - https://mui.com/material-ui
+vita - https://vite.dev
 
 
 dotnt Commands
