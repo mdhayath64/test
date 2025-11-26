@@ -3,7 +3,7 @@ github link - https://github.com/TryCatchLearn/Restore-v2
 react - https://react.dev
 material UI - https://mui.com/material-ui
 vita - https://vite.dev
-
+redux(RTK) - https://redux.js.org/introduction/why-rtk-is-redux-today
 
 dotnt Commands
 dotnet --info    -> informations of the dotnet installed
