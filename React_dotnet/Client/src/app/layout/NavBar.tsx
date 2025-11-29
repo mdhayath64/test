@@ -1,8 +1,7 @@
-import { AppBar, Badge, Box, Icon, IconButton, LinearProgress, List, ListItem, Toolbar, Typography } from "@mui/material";
+import { AppBar, Badge, Box, IconButton, LinearProgress, List, ListItem, Toolbar, Typography } from "@mui/material";
 import { DarkMode, LightMode, ShoppingCart } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../store/store";
-import { useDispatch } from "react-redux";
 import { setDarkMode } from "./uiSlice";
 
 const midLinks = [
