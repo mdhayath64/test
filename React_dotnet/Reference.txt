@@ -22,3 +22,9 @@ nuget gallery
 C# dev kit
 Sqlite viewer
 material icon theme
+ES7+ React/Redux/React-Native snippets
+
+
+Browser Extensions
+Redux DevTools
+React Developer Tools

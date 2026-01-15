@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    public class ProductsController(StoreContext context) : BaseApiConrtoller
+    public class ProductsController(StoreContext context) : BaseApiController
     {
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
